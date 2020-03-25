@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>气泡聊天框</title>
+  <style>
+    .triangle {
+      position: absolute;
+      top: 25px;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-right: 10px solid transparent;
+      border-bottom: 5px solid blue;
+      border-left: 10px solid transparent;
+      border-top: 5px solid transparent;
+      transform: rotate(27deg);
+    }
+
+    .txt {
+      display: inline-block;
+      padding: 5px;
+      height: 20px;
+      min-width: 1px;
+      border-radius: 5px;
+      line-height: 20px;
+      background: blue;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .container {
+      display: inline-block;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="txt">sadad</div>
+    <div class="triangle"></div>
+  </div>
+</body>
+</html>
