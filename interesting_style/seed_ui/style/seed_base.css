@@ -1,0 +1,33 @@
+.seed *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+/****文本框****/
+.seed input{
+    display: inline-block;
+    position: relative;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 7px;
+    font-size: 12px;
+    border: 1px solid #d7dde4;
+    border-radius: 4px;
+    color: #657180;
+    background-color: #fff;
+    background-image: none;
+    cursor: text;
+    transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;
+}
+.seed input:focus, .seed-body input:hover {
+    border-color: #5cadff;
+}
+
+/****标题****/
+.seed h1,
+.seed h2,
+.seed h3,
+.seed h4{
+    color: #464c5b;
+}
