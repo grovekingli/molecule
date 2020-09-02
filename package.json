@@ -1,0 +1,21 @@
+{
+  "name": "molecule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bp.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grovekingli/molecule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grovekingli/molecule/issues"
+  },
+  "homepage": "https://github.com/grovekingli/molecule#readme"
+}
